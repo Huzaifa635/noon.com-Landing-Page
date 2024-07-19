@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .right--list{
+padding:0 15px;
+color:black
+
+
+  }
+  .container
+{
+  max-width: 100%;
+justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: yellow; /* jo b backgroiund color h put krdena
+
+*/
+padding: 10px 15px;
+
+}
+.containerr{
+  width: 100%;
+  height: 300px;
+  background-color: oldlace;
+}
+.gap{
+  margin-top: 15px;
+  padding: 5px;
+}
+
+input{
+  width: 700px;
+  border:none;
+  border-radius:8px;
+
+}
+.logo{
+  width:90px;
+
+}
+#nav-linkactive{ 
+    margin-right: auto;
+
+}
+.NAV{
+text-decoration: none;
+color: black;
+text-align: center;
+justify-content: center;
+text-decoration: solid;
+display: inline;
+
+}
+
+.container1{
+    display:inline-flex;
+    margin: 2px;
+    flex-direction: row;
+}
+.containerr1{
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+}
+.container24{
+  display: flex;
+  flex-direction: row;
+
+}
+.container19{
+ 
+  border: whitesmoke;
+  background-color: white;
+  margin-top: 20px;
+  
+}
+.container13{
+  background-color: #e5f3f3;
+  flex-direction: row;
+    width: 100%;
+    height: 400x;
+    padding: 10px;
+   
+    justify-content:space-evenly 
+}
+.container14{
+  background-color: #d5e3eb;
+  flex-direction: row;
+    width: 100%;
+    height: 400x;
+    padding: 10px;
+    justify-content:space-evenly 
+}
+
+
+
+ .containerrr{
+  padding: 15px;
+  margin-left: 20px;
+ }
+  .colour{
+    background-color: #e5f3f3;
+  }
+  .colour2{
+    background-color: #d5e3eb;}
+ 
+.containerg{
+    display:inline-flex;
+    margin: 2px;
+    flex-direction: row;
+}
+
+/*media query */
+@media(max-width:320px)
+{
+  .container{
+    flex-direction: column;
+  
+  }
+  .right--list{
+    margin:10px 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+  input {
+    width: 180px;
+  }
+  .container1{
+    display:inline-flex;
+    margin: 2px;
+    flex-direction: column;
+}
+.containerg{
+    display:inline-flex;
+    margin: 2px;
+    flex-direction: column;
+}
+/* #abd{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto; */
+}
+.abc{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+
+@media(max-width:720px)
+{
+  .container{
+    flex-direction: column;
+  
+  }
+  .right--list{
+    margin:10px 0;
+  }
+  
+  input {
+    width: 180px;
+  }
+}
+/* #abd{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+} */
+.abc{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
